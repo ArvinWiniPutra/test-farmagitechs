@@ -1,0 +1,199 @@
+ul {
+    list-style: none;
+    display: table;
+}
+  
+li {
+    display: table-row;
+}
+
+img {
+    margin: 0 auto; 
+    padding: 0px;
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    padding: 0px;
+    table-layout: fixed;
+    min-width: 100%;
+    line-height: 1.5;
+    page-break-after: auto;
+}
+
+table th {
+    background:#ffffff;
+    color:#000000;
+    border: 1px solid #000000;
+    font-weight:normal;
+    text-align:center;
+    border-collapse: collapse; 
+}
+
+table td {
+    padding: 8px 25px;
+    border-collapse: collapse; 
+    border: 1px solid #000000;
+    page-break-inside:avoid; page-break-after:auto
+}
+
+table tr {
+    background-color: #ffffff;
+    color:#000000;
+    text-align:left;
+    border-collapse: collapse; 
+    page-break-inside:avoid; page-break-after:auto
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+p {
+    color:#000000;
+    text-align:left;
+    padding: 0px;
+}
+
+.table-data {
+    text-align: left;
+}
+
+.table-border-left {
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.table-border-right {
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+table tr .blanks {
+    max-width: 100%;
+    height: 20px;
+    border-bottom: 3px dotted black;
+    text-align: right;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+table tr .blanks .span {
+    padding: 0 10px 0 5px;
+    background-color: white;
+    font-size: 20px;
+    margin: 20%;
+}
+
+table tr td .wrapper {
+    margin-top: 10px;
+}
+
+table tr td .wrapper .title-wrapper { 
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+}
+
+table tr td .wrapper .checkbox-wrapper { 
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+.table tr td .wrapper .title-wrapper .double-dot {
+    text-align: right;
+    float: right;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+table tr td .mini-table {
+    border: 1px solid #000000;
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    padding: 0px;
+    table-layout: fixed;
+    min-width: 100%;
+    line-height: normal;
+}
+
+table tr td .mini-table .mini-row {
+    background-color: #ffffff;
+    color:#000000;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+table tr td .mini-table .mini-row .mini-th, .mini-td{
+    padding: 10px;
+    border: 1px solid #000000;
+    background:#ffffff;
+    color:#000000;
+    font-weight:normal;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+table tr td .wrapper .checkbox-wrapper .prognosis-class {
+    display: block;
+}
+
+.desc {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.date-sign {
+    margin-top: 10px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.date-sign .blanks {
+    max-width: 99%;
+    height: 20px;
+    border-bottom: 3px dotted black;
+    margin-bottom: 10px;
+}
+
+.date-sign .span {
+    padding: 0 10px 5px 5px;
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.date-sign .span-right, .span-right-2 {
+    padding: 0 2px 5px 2px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    vertical-align: bottom;
+}
+
+.date-sign .span-right {
+    right: 15%;
+}
+
+.date-sign .span-right-2 {
+    right: 0;
+}
+
+
+
